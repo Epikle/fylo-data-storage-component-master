@@ -16,13 +16,17 @@
 body {
   display: grid;
   place-items: center;
-  grid-template-rows: 1fr 4rem;
+  grid-template-rows: 4rem 1fr 4rem;
   min-height: 100vh;
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
   color: var(--color-pale-blue);
   background: no-repeat bottom url(../images/bg-desktop.png)
     var(--color-vdark-blue);
+}
+
+h1 {
+  font-size: 1.75rem;
 }
 
 main {
@@ -161,6 +165,10 @@ footer a {
   body {
     background: no-repeat url(../images/bg-mobile.png) var(--color-vdark-blue);
     background-size: cover;
+  }
+
+  h1 {
+    font-size: 1rem;
   }
 
   main {
